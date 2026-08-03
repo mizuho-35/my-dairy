@@ -9,12 +9,13 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('/css/sanitize.css')  }}">
+    <link rel="stylesheet" href="{{ asset('/css/auth.css')  }}">
     <link rel="stylesheet" href="{{ asset('/css/common.css')  }}">
     @yield('css')
 </head>
 
 <body>
-    @include('components.header')
+    @include('layouts.header')
     @yield('content')
 </body>
 
