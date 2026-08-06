@@ -20,7 +20,7 @@ header {
 }
 
 main {
-    background-color: #f0eff2;
+    background-color: #cfeef3;
     min-height: 100vh;
     padding: 20px 0;
 }
@@ -66,12 +66,12 @@ main {
 
 
 .center {
-    width: 680px;
+    width: 60%;
     margin: 0 auto;
     padding: 50px 0;
 }
 
 .form__error {
-    color: #ff333f;
+    color: #ff8300;
     margin-top: 8px;
 }

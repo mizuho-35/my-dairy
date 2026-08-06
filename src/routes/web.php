@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthController;
+use App\Http\Controllers\HomeController;
 
 
-Route::get('/', [AuthController::class, 'index']);
+Route::get('/', [HomeController::class, 'index']);

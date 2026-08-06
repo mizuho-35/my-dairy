@@ -3,15 +3,11 @@
 
 @section('title','ログイン')
 
-@section('css')
-<link rel="stylesheet" href="{{ asset('/css/auth.css') }}">
-@endsection
-
 @section('content')
-<form action="/login" method="post" class="form center">
+<form action="/login" method="post" class="center">
     @csrf
     <div class="form__inner">
-        <h1 class="auth__title">Login</h1>
+        <h1 class="auth__title">୨୧ Login ୨୧</h1>
         <label for="mail" class="form__label">メールアドレス</label>
         <input name="email" id="email" type="email" class="input" value="{{ old('email') }}">
         <div class="form__error">
@@ -27,8 +23,8 @@
             @enderror
         </div>
         <div class="btn-row">
-            <button class="btn btn--main">ログイン</button>
             <a href="/register" class="btn btn--sub">新規登録</a>
+            <button class="btn btn--main">ログイン</button>
         </div>
         <a href="/register" class="link">パスワードをお忘れの方はこちら</a>
     </div>

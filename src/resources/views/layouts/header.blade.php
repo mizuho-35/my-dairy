@@ -1,7 +1,7 @@
 <!-- 共用ヘッダー画面 -->
 <header class="header">
     <div class="header__logo">
-        <h1>🌷my diary🌷</h1>
+        <h1>🦋 my diary 🦋</h1>
     </div>
     <nav class="header__nav">
         <ul>
